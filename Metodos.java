@@ -5,6 +5,7 @@ public class Metodos{
     }
     public static void Maior3(int A, int B, int C){
         int result = Math.max(Math.max(A,B),C);
+        System.out.println("O maior valor digitado eh:");
         System.out.println(result);
     }
     public static void Sexo(char sexo){
