@@ -29,8 +29,8 @@ public class OpenSiteTest {
 
 	@Test
 	public void test() throws InterruptedException{
-		driver.get("https://marcelodebittencourt.com/demopages/demosimplesearch/");
-		assertTrue("titulo difere",driver.getTitle().contentEquals("Demo Simple Search using JavaScript"));
+		driver.get("https://www.facebook.com/");
+		assertTrue("titulo difere",driver.getTitle().contentEquals("Facebook – entre ou cadastre-se"));
 		Thread.sleep(3000);
 	}
 }
