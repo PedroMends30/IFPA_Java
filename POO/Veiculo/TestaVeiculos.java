@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class TestaVeiculos {
     public static void main(String[] args) {
         Moto bros = new Moto();
