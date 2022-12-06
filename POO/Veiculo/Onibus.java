@@ -1,5 +1,8 @@
 public class Onibus extends Veiculo{
     private String tipoOnibus;
+    public Onibus(){
+        
+    }
     public void setTipoOnibus(String tipoOnibus) {
         this.tipoOnibus = tipoOnibus;
     }
