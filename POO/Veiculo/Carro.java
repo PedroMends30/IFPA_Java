@@ -1,5 +1,8 @@
 public class Carro extends Veiculo{
     private String tipoCarro;
+    public Carro(){
+        
+    }
     public String getTipoCarro() {
         return tipoCarro;
     }
